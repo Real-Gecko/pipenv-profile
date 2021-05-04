@@ -1,0 +1,57 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+boto3 = "*"
+celery = "*"
+django = "*"
+django-allauth = "*"
+django-bootstrap4 = "*"
+django-cleanup = "*"
+django-easy-audit = {editable = true, git = "https://github.com/Real-Gecko/django-easy-audit.git"}
+django-environ = "*"
+django-filter = "*"
+django-ical = "*"
+django-icons = "*"
+django-import-export = "*"
+django-logentry-admin = "*"
+django-menu-generator = "*"
+django-modeltranslation = "*"
+django-money = "*"
+django-pandas = "*"
+django-phonenumber-field = "*"
+django-redis = "*"
+django-rest-auth = "*"
+django-reverse-admin = "*"
+django-storages = "*"
+django-suit = {editable = true, git = "https://github.com/darklow/django-suit.git"}
+django-tables2 = "*"
+django-vies = "*"
+django-widget-tweaks = "*"
+djangorestframework = "*"
+drf-yasg = "*"
+fcm-django = "*"
+gunicorn = "*"
+monthdelta = "*"
+pandas = "*"
+phonenumbers = "*"
+pillow = "*"
+psycopg2-binary = "*"
+pymsteams = "*"
+redis = "*"
+rules = "*"
+slack-sdk = "*"
+
+[dev-packages]
+argh = "*"
+bpython = "*"
+coverage = "*"
+django-debug-toolbar = "*"
+django-extensions = "*"
+flower = {editable = true, git = "https://github.com/mher/flower.git"}
+watchdog = "*"
+
+[requires]
+python_version = "3.8"
